@@ -10,5 +10,7 @@ test('task on basic elements', async ({ page }) => {
   await page.locator(`input[value="${opt}"]`).check()
   }
   await expect(page.locator('input[value="option1"]')).toBeChecked()
+
+  
 });
 
