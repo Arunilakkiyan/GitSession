@@ -12,6 +12,11 @@ test('task on basic elements', async ({ page }) => {
   await expect(page.locator('input[value="option1"]')).toBeChecked()
 
 
+
   console.log("Arun Update V01")
+
+  console.log("Ram New Update V02")
+
+
 });
 
